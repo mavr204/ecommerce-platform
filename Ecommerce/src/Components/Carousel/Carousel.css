@@ -1,0 +1,48 @@
+
+.carousel {
+    display: flex;
+    height: 80vh;
+    width: 100%;
+  }
+  .carousel_wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-card {
+    display: flex;
+    flex: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.8);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out, pointer-events 0.5s ease-in-out;
+}
+
+.active-card {
+    opacity: 1;
+    pointer-events: visible;
+    transform: scale(1);
+}
+
+.carousel-image{
+    width: 100%;
+    object-fit: cover;
+}
+.carousel-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.25);
+    padding: 40px 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.overlay-title{
+    color: white;
+    font-size: 30px;
+}

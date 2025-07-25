@@ -1,0 +1,157 @@
+--The Database operations
+CREATE DATABASE ecommerce;
+USE ecommerce;
+show tables;
+
+DROP DATABASE mydb;
+CREATE DATABASE ecommerce;
+
+
+--User Table
+CREATE TABLE users (
+    uid INT PRIMARY KEY AUTO_INCREMENT,
+    pwd VARCHAR(255),
+    pnum BIGINT UNIQUE NOT NULL,
+    address VARCHAR(255),
+    name VARCHAR(255),
+    email VARCHAR(255) UNIQUE NOT NULL
+);
+
+INSERT INTO users (pwd, pnum, address, name, email) 
+VALUES ('88888888', 7439272165, '123 Main St', 'Anish Naskar', 'anishnaskar.mav@gmail.com');
+
+UPDATE users SET pnum = 1234567890 WHERE uid = 1;
+
+DELETE FROM users WHERE uid = 11;
+
+--Product Table
+CREATE TABLE product (
+    pid INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255),
+    image VARCHAR(255),
+    price DOUBLE,
+    discount_price DOUBLE,
+    popular BOOLEAN DEFAULT FALSE
+);
+
+INSERT INTO product (title, image, price, discount_price)
+VALUES 
+  ('Cyber Titan: Unleash Your Gaming Potential', 'src/Components/assets/Products/pc1.png', 70000, 65000),
+  ('Vortex Vanguard: Dominate the Digital Realm', 'src/Components/assets/Products/pc2.png', 80000, 75000),
+  ('HyperNova: Power Your Gaming Adventures', 'src/Components/assets/Products/pc3.png', 90000, 85000),
+  ('Aurora Blaze: Ignite Your Gaming Passion', 'src/Components/assets/Products/pc4.png', 100000, 95000),
+  ('Apex Prime: Elevate Your Gaming Experience', 'src/Components/assets/Products/pc5.png', 110000, 105000),
+  ('A-DATA XPG ADATA Spectrix D60G RGB DDR4 8GB (1x8GB) 3200MHz U-DIMM Desktop Memory', 'src/Components/assets/Products/ram1.jpg', 3000, 2849),
+  ('Corsair Vengeance LPX 16GB (2x8GB) DDR4 DRAM 3000MHz C15 Desktop Memory Kit', 'src/Components/assets/Products/ram2.jpg', 2500, 2200),
+  ('G.SKILL Ripjaws V Series 16GB (2 x 8GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 25600) Desktop Memory Model F4-3200C16D-16GVKB', 'src/Components/assets/Products/ram3.jpg', 3500, 3200),
+  ('Crucial Ballistix RGB 3200 MHz DDR4 DRAM Desktop Gaming Memory Kit 16GB (8GBx2) CL16 BL2K8G32C16U4BL', 'src/Components/assets/Products/ram4.jpg', 2800, 2600),
+  ('TEAMGROUP T-Force Delta RGB DDR4 16GB (2x8GB) 3000MHz (PC4-24000) CL16 Desktop Gaming Memory Module Ram TF3D416G3000HC16CDC01 - Black', 'src/Components/assets/Products/ram5.jpg', 3200, 3000);
+
+UPDATE product SET popular = true WHERE pid IN (1, 5, 6, 7, 9, 3);
+
+UPDATE product
+SET title = 
+    CASE 
+        WHEN pid = 6 THEN 'Corsair Vengeance LPX 8GB DDR4'
+        WHEN pid = 7 THEN 'G.SKILL Ripjaws V 8GB DDR4'
+        WHEN pid = 8 THEN 'Crucial Ballistix RGB 8GB DDR4'
+        WHEN pid = 9 THEN 'TEAMGROUP T-Force Delta RGB 8GB DDR4'
+        ELSE title
+    END
+WHERE pid BETWEEN 6 AND 9;
+
+DELETE FROM product WHERE pid = 10;
+
+-- Orders Table
+
+CREATE TABLE orders (
+    order_id VARCHAR(50) PRIMARY KEY,
+    uid INT NOT NULL,
+    pid INT NOT NULL,
+    order_status VARCHAR(10) NOT NULL,
+    order_date DATE NOT NULL,
+    delivery_date DATE NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    FOREIGN KEY (uid) REFERENCES users(uid) ON DELETE CASCADE,
+    FOREIGN KEY (pid) REFERENCES product(pid) ON DELETE CASCADE
+);
+
+INSERT INTO orders VALUES 
+('order1', 3, 1, 'pending', '2023-01-01', '2023-01-06','3/10, Watertank, Makardah, Howrah (711409), W.B'),
+('order3', 3, 2, 'shipped', '2023-02-02', '2023-02-07', '3/10, Watertank, Makardah, Howrah (711409), W.B'),
+('order4', 3, 3, 'shipped', '2023-12-02', '2023-12-07', '3/10, Watertank, Makardah, Howrah (711409), W.B'),
+('order5', 3, 4, 'shipped', '2024-03-15', '2024-03-22', '3/10, Watertank, Makardah, Howrah (711409), W.B'),
+('order6', 3, 7, 'shipped', '2024-05-13', '2024-05-18' ,'3/10, Watertank, Makardah, Howrah (711409), W.B'),
+('order7', 3, 5, 'shipped', '2024-05-13', '2024-05-18' ,'3/10, Watertank, Makardah, Howrah (711409), W.B'),
+('order8', 3, 9, 'shipped', '2024-05-10', '2024-05-15' ,'3/10, Watertank, Makardah, Howrah (711409), W.B');
+
+
+-- Cart item Table
+CREATE TABLE cart_item (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    qty INT,
+    uid INT,
+    pid INT
+);
+
+INSERT INTO cart_item (qty, uid, pid) VALUES (3, 1, 5);
+
+DELETE FROM cart_item WHERE pid = 5;
+DELETE FROM cart_item WHERE id = 39;
+DELETE FROM cart_item WHERE id = 99;
+
+
+-- Product Table
+CREATE TABLE product_details (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    pid INT,
+    spec_title VARCHAR(50),
+    spec_value VARCHAR(255),
+    FOREIGN KEY (pid) REFERENCES product(pid)
+);
+
+-- For product id 1
+INSERT INTO product_details (pid, spec_title, spec_value) VALUES 
+('1', 'motherboard', 'MSI MAG B550 TOMAHAWK MAX WIFI'),
+('1', 'cpu', 'AMD Ryzen 5 5600X'),
+('1', 'ram', 'Corsair Vengeance LPX 16GB (2x8GB) DDR4 DRAM 3200MHz C16 Desktop Memory Kit');
+
+-- For product id 5
+INSERT INTO product_details (pid, spec_title, spec_value) VALUES 
+('5', 'motherboard', 'MSI MAG B550 TOMAHAWK MAX WIFI'),
+('5', 'cpu', 'AMD Ryzen 5 5600X'),
+('5', 'ram', 'Corsair Vengeance LPX 16GB (2x8GB) DDR4 DRAM 3200MHz C16 Desktop Memory Kit');
+
+-- For product id 2
+INSERT INTO product_details (pid, spec_title, spec_value) VALUES 
+('2', 'motherboard', 'MSI B760M Bomber WiFi Motherboard, Micro-ATX'),
+('2', 'cpu', 'Intel Core i5-13400F'),
+('2', 'ram', 'G.Skill Ripjaws V Series 16GB (2 x 8GB) DDR4-3200MHz CL16 Desktop Memory Kit');
+
+-- Wishlist Table
+CREATE TABLE wishlist (
+    uid INT NOT NULL,
+    pid INT NOT NULL,
+    PRIMARY KEY (uid, pid),
+    FOREIGN KEY (uid) REFERENCES users(uid) ON DELETE CASCADE,
+    FOREIGN KEY (pid) REFERENCES product(pid) ON DELETE CASCADE
+);
+
+INSERT INTO wishlist VALUES (8, 5);
+
+-- Drop tables;
+DROP TABLE users;
+DROP TABLE product;
+DROP TABLE orders;
+DROP TABLE cart_item;
+DROP TABLE product_details;
+DROP TABLE wishlist;
+
+-- Select Queries
+SELECT * FROM cart_item;
+SELECT * FROM users;
+SELECT * FROM orders;
+SELECT * FROM product;
+SELECT * FROM product_details;
+SELECT * FROM wishlist;
+

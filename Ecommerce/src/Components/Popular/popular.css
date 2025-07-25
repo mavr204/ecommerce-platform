@@ -1,0 +1,122 @@
+.popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 525px; /* new */
+  gap: 10px;
+  background-color: rgb(247, 247, 247);
+}
+
+.popular h2 {
+  color: #171717;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.popular hr {
+  width: 200px;
+  min-height: 5px;
+  border-radius: 10px;
+  background-color: #252525;
+  margin: 0;
+}
+
+.popular h2 {
+  background: linear-gradient(
+    180deg,
+    rgba(16, 67, 159, 1) 11%,
+    rgba(86, 216, 228, 0.9724264705882353) 95%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.popular .line {
+  width: 200px;
+  min-height: 5px;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(16, 67, 159, 1) 11%,
+    rgba(86, 216, 228, 0.9724264705882353) 42%,
+    rgba(242, 123, 189, 1) 77%
+  );
+  margin: 0;
+}
+.popular-item {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  height: 420px; /* new */
+  box-shadow: 20px -6rem 20rem 15px rgba(132, 139, 200, 0.28); /* background: linear-gradient(
+    90deg,
+    rgba(16, 67, 159, 1) 11%,
+    rgba(86, 216, 228, 0.9724264705882353) 42%,
+    rgba(242, 123, 189, 1) 77%
+  ); */
+  /* padding: 1rem; */
+  padding-left: 1rem;
+  /* -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+  mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent); */
+}
+
+.item-wrapper {
+  overflow-x: hidden;
+  width: 90%;
+  height: 430px; /* new */
+  /* background: linear-gradient(
+    90deg,
+    rgba(16, 67, 159, 1) 11%,
+    rgba(86, 216, 228, 0.9724264705882353) 42%,
+    rgba(242, 123, 189, 1) 77%
+  ); */
+  box-shadow: inset 20px -6rem 20rem 15px rgba(132, 139, 200, 0.28);
+  background-color: rgb(247, 247, 247);
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+  mask: linear-gradient(90deg, transparent, white 3%, white 97%, transparent);
+}
+
+.popular-item::-webkit-scrollbar {
+  height: 0.5em;
+}
+
+.popular-item::-webkit-scrollbar-track {
+  margin: 2rem;
+  margin-bottom: 1rem;
+}
+.popular-item::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    90deg,
+    rgba(16, 67, 159, 1) 11%,
+    rgba(86, 216, 228, 0.9724264705882353) 42%,
+    rgba(242, 123, 189, 1) 77%
+  );
+  border-radius: 100vw;
+}
+.popular-item::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    270deg,
+    rgba(16, 67, 159, 1) 11%,
+    rgba(86, 216, 228, 0.9724264705882353) 42%,
+    rgba(242, 123, 189, 1) 77%
+  );
+  opacity: 1;
+}

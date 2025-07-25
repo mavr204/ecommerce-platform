@@ -1,0 +1,102 @@
+"filename", "language", "JSON", "CSS", "Markdown", "XML", "JavaScript JSX", "JavaScript", "HTML", "comment", "blank", "total"
+"c:\Users\gamer\Downloads\after admin\Ecommerce\.eslintrc.cjs", "JavaScript", 0, 0, 0, 0, 0, 21, 0, 0, 1, 22
+"c:\Users\gamer\Downloads\after admin\Ecommerce\README.md", "Markdown", 0, 0, 5, 0, 0, 0, 0, 0, 4, 9
+"c:\Users\gamer\Downloads\after admin\Ecommerce\index.html", "HTML", 0, 0, 0, 0, 0, 0, 13, 0, 1, 14
+"c:\Users\gamer\Downloads\after admin\Ecommerce\package-lock.json", "JSON", 5349, 0, 0, 0, 0, 0, 0, 0, 1, 5350
+"c:\Users\gamer\Downloads\after admin\Ecommerce\package.json", "JSON", 36, 0, 0, 0, 0, 0, 0, 0, 1, 37
+"c:\Users\gamer\Downloads\after admin\Ecommerce\public\vite.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\App.css", "CSS", 0, 17, 0, 0, 0, 0, 0, 0, 2, 19
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\App.jsx", "JavaScript JSX", 0, 0, 0, 0, 106, 0, 0, 0, 6, 112
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Admin\AdminOrderItem.jsx", "JavaScript JSX", 0, 0, 0, 0, 83, 0, 0, 0, 7, 90
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Admin\AdminProductItem.jsx", "JavaScript JSX", 0, 0, 0, 0, 95, 0, 0, 0, 7, 102
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Admin\AdminUserItem.jsx", "JavaScript JSX", 0, 0, 0, 0, 52, 0, 0, 0, 5, 57
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Admin\SearchItem.jsx", "JavaScript JSX", 0, 0, 0, 0, 111, 0, 0, 0, 7, 118
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Admin\SearchOrder.jsx", "JavaScript JSX", 0, 0, 0, 0, 71, 0, 0, 0, 5, 76
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Admin\SearchUser.jsx", "JavaScript JSX", 0, 0, 0, 0, 67, 0, 0, 0, 5, 72
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Carousel\Carousel.css", "CSS", 0, 45, 0, 0, 0, 0, 0, 0, 3, 48
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Carousel\Carousel.jsx", "JavaScript JSX", 0, 0, 0, 0, 56, 0, 0, 0, 7, 63
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\CartBody\CartBody.css", "CSS", 0, 58, 0, 0, 0, 0, 0, 0, 2, 60
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\CartBody\CartBody.jsx", "JavaScript JSX", 0, 0, 0, 0, 135, 0, 0, 0, 16, 151
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\CartItem\CartItem.css", "CSS", 0, 78, 0, 0, 0, 0, 0, 0, 2, 80
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\CartItem\CartItem.jsx", "JavaScript JSX", 0, 0, 0, 0, 94, 0, 0, 0, 6, 100
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Data\CartService.jsx", "JavaScript JSX", 0, 0, 0, 0, 36, 0, 0, 0, 3, 39
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Data\ImageService.jsx", "JavaScript JSX", 0, 0, 0, 0, 24, 0, 0, 0, 3, 27
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Data\OrderService.jsx", "JavaScript JSX", 0, 0, 0, 0, 44, 0, 0, 0, 3, 47
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Data\ProductService.jsx", "JavaScript JSX", 0, 0, 0, 0, 42, 0, 0, 1, 3, 46
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Data\ProductSpecsService.jsx", "JavaScript JSX", 0, 0, 0, 0, 15, 0, 0, 0, 3, 18
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Data\TempData.jsx", "JavaScript JSX", 0, 0, 0, 0, 45, 0, 0, 0, 2, 47
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Data\UserService.jsx", "JavaScript JSX", 0, 0, 0, 0, 79, 0, 0, 0, 11, 90
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Data\WishlistService.jsx", "JavaScript JSX", 0, 0, 0, 0, 25, 0, 0, 0, 3, 28
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Footer\Footer.css", "CSS", 0, 70, 0, 0, 0, 0, 0, 0, 1, 71
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Footer\Footer.jsx", "JavaScript JSX", 0, 0, 0, 0, 35, 0, 0, 0, 3, 38
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Hero\Carousel.css", "CSS", 0, 18, 0, 0, 0, 0, 0, 0, 1, 19
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Hero\Hero.css", "CSS", 0, 59, 0, 0, 0, 0, 0, 0, 1, 60
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Hero\Hero.jsx", "JavaScript JSX", 0, 0, 0, 0, 119, 0, 0, 0, 3, 122
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Icons\CoolButton.css", "CSS", 0, 13, 0, 0, 0, 0, 0, 0, 2, 15
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Icons\CoolButton.jsx", "JavaScript JSX", 0, 0, 0, 0, 16, 0, 0, 0, 3, 19
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Icons\GreenCheck.jsx", "JavaScript JSX", 0, 0, 0, 0, 14, 0, 0, 0, 3, 17
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Icons\HamburgerIcon.jsx", "JavaScript JSX", 0, 0, 0, 0, 39, 0, 0, 0, 2, 41
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Icons\Spinner.jsx", "JavaScript JSX", 0, 0, 0, 0, 13, 0, 0, 0, 3, 16
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Item\Item.css", "CSS", 0, 96, 0, 0, 0, 0, 0, 7, 2, 105
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Item\Item.jsx", "JavaScript JSX", 0, 0, 0, 0, 104, 0, 0, 1, 9, 114
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\NewArrivals\NewArrivals.css", "CSS", 0, 64, 0, 0, 0, 0, 0, 0, 4, 68
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\NewArrivals\NewArrivals.jsx", "JavaScript JSX", 0, 0, 0, 0, 66, 0, 0, 0, 6, 72
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\NewsLetter\NewsLetter.css", "CSS", 0, 54, 0, 0, 0, 0, 0, 0, 2, 56
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\NewsLetter\NewsLetter.jsx", "JavaScript JSX", 0, 0, 0, 0, 21, 0, 0, 0, 3, 24
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Offers\Offers.css", "CSS", 0, 54, 0, 0, 0, 0, 0, 0, 3, 57
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Offers\Offers.jsx", "JavaScript JSX", 0, 0, 0, 0, 25, 0, 0, 0, 3, 28
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\OrderItems\OrderItem.jsx", "JavaScript JSX", 0, 0, 0, 0, 43, 0, 0, 0, 6, 49
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Orders\OrderHistory.jsx", "JavaScript JSX", 0, 0, 0, 0, 28, 0, 0, 0, 3, 31
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Orders\PaginationOrders.jsx", "JavaScript JSX", 0, 0, 0, 0, 145, 0, 0, 2, 10, 157
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Orders\UserProfile\ChangePassword.jsx", "JavaScript JSX", 0, 0, 0, 0, 147, 0, 0, 0, 5, 152
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Orders\UserProfile\UserDataView.jsx", "JavaScript JSX", 0, 0, 0, 0, 16, 0, 0, 0, 3, 19
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Orders\UserProfile\UserDetails.jsx", "JavaScript JSX", 0, 0, 0, 0, 101, 0, 0, 0, 4, 105
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Orders\UserProfile\UserEditForm.css", "CSS", 0, 254, 0, 0, 0, 0, 0, 2, 3, 259
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Orders\UserProfile\UserEditForm.jsx", "JavaScript JSX", 0, 0, 0, 0, 448, 0, 0, 14, 27, 489
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Popular\Popular.jsx", "JavaScript JSX", 0, 0, 0, 0, 70, 0, 0, 0, 5, 75
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Popular\popular.css", "CSS", 0, 109, 0, 0, 0, 0, 0, 1, 8, 118
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\ProductSpecs\ProductSpecs.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\ProductSpecs\ProductSpecs.jsx", "JavaScript JSX", 0, 0, 0, 0, 10, 0, 0, 0, 3, 13
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Searchbar\Searchbar.css", "CSS", 0, 42, 0, 0, 0, 0, 0, 0, 6, 48
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Searchbar\Searchbar.jsx", "JavaScript JSX", 0, 0, 0, 0, 55, 0, 0, 0, 4, 59
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\SignUp\UserSignup.jsx", "JavaScript JSX", 0, 0, 0, 0, 171, 0, 0, 14, 8, 193
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\SignUp\UserSignupDetails.jsx", "JavaScript JSX", 0, 0, 0, 0, 383, 0, 0, 0, 22, 405
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Snackbar\Snackbar.css", "CSS", 0, 64, 0, 0, 0, 0, 0, 0, 6, 70
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Snackbar\Snackbar.jsx", "JavaScript JSX", 0, 0, 0, 0, 33, 0, 0, 0, 5, 38
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Unused\navbar.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 88, 1, 89
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Unused\navbar.jsx", "JavaScript JSX", 0, 0, 0, 0, 150, 0, 0, 0, 6, 156
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Utility\Redirect.jsx", "JavaScript JSX", 0, 0, 0, 0, 25, 0, 0, 0, 5, 30
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Wishlist\WishlistIcon.jsx", "JavaScript JSX", 0, 0, 0, 0, 63, 0, 0, 0, 8, 71
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\Wishlist\WishlistItem.jsx", "JavaScript JSX", 0, 0, 0, 0, 72, 0, 0, 1, 4, 77
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\assets\NotFound.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 1, 2
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\assets\react.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\navbar\AdminNavbar.jsx", "JavaScript JSX", 0, 0, 0, 0, 129, 0, 0, 0, 8, 137
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\navbar\OffcanvasNav.css", "CSS", 0, 188, 0, 0, 0, 0, 0, 2, 24, 214
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Components\navbar\OffcanvasNavbar.jsx", "JavaScript JSX", 0, 0, 0, 0, 144, 0, 0, 0, 8, 152
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Context\CartContext.jsx", "JavaScript JSX", 0, 0, 0, 0, 25, 0, 0, 2, 7, 34
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Context\UserContext.jsx", "JavaScript JSX", 0, 0, 0, 0, 61, 0, 0, 0, 11, 72
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\AddProduct.jsx", "JavaScript JSX", 0, 0, 0, 0, 333, 0, 0, 3, 27, 363
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\AdminHome.jsx", "JavaScript JSX", 0, 0, 0, 0, 196, 0, 0, 1, 14, 211
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\AdminOrder.jsx", "JavaScript JSX", 0, 0, 0, 0, 183, 0, 0, 0, 12, 195
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\AdminUser.jsx", "JavaScript JSX", 0, 0, 0, 0, 181, 0, 0, 0, 12, 193
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\CSS\Login.css", "CSS", 0, 80, 0, 0, 0, 0, 0, 0, 3, 83
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\CSS\OrderDetails.css", "CSS", 0, 19, 0, 0, 0, 0, 0, 0, 1, 20
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\CSS\Orders.css", "CSS", 0, 14, 0, 0, 0, 0, 0, 0, 1, 15
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\CSS\ProductDetailsPage.css", "CSS", 0, 66, 0, 0, 0, 0, 0, 2, 7, 75
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\CSS\ProductTable.css", "CSS", 0, 4, 0, 0, 0, 0, 0, 0, 1, 5
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\CSS\Signup.css", "CSS", 0, 53, 0, 0, 0, 0, 0, 0, 2, 55
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\CSS\wishlist.css", "CSS", 0, 42, 0, 0, 0, 0, 0, 0, 1, 43
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\Cart.jsx", "JavaScript JSX", 0, 0, 0, 0, 10, 0, 0, 0, 3, 13
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\Home.jsx", "JavaScript JSX", 0, 0, 0, 0, 42, 0, 0, 0, 4, 46
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\Login.jsx", "JavaScript JSX", 0, 0, 0, 0, 153, 0, 0, 0, 19, 172
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\NotFound.jsx", "JavaScript JSX", 0, 0, 0, 0, 20, 0, 0, 0, 3, 23
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\OrderDetails.jsx", "JavaScript JSX", 0, 0, 0, 0, 182, 0, 0, 0, 13, 195
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\OrdersPage.jsx", "JavaScript JSX", 0, 0, 0, 0, 45, 0, 0, 0, 6, 51
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\ProductDetailsPage.jsx", "JavaScript JSX", 0, 0, 0, 0, 135, 0, 0, 4, 12, 151
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\Products.jsx", "JavaScript JSX", 0, 0, 0, 0, 5, 0, 0, 0, 3, 8
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\Signup.jsx", "JavaScript JSX", 0, 0, 0, 0, 89, 0, 0, 1, 10, 100
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\Pages\Wishlist.jsx", "JavaScript JSX", 0, 0, 0, 0, 185, 0, 0, 0, 16, 201
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\index.css", "CSS", 0, 23, 0, 0, 0, 0, 0, 0, 5, 28
+"c:\Users\gamer\Downloads\after admin\Ecommerce\src\main.jsx", "JavaScript JSX", 0, 0, 0, 0, 15, 0, 0, 0, 2, 17
+"c:\Users\gamer\Downloads\after admin\Ecommerce\vite.config.js", "JavaScript", 0, 0, 0, 0, 0, 5, 0, 1, 2, 8
+"Total", "-", 5385, 1584, 5, 3, 5725, 26, 13, 147, 564, 13452

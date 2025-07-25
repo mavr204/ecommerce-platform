@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.custom-width {
+  width: auto;
+}
+.orderlist {
+  width: 60px;
+}
+.card {
+  min-height: 330px !important;
+}

@@ -1,0 +1,92 @@
+.login-page {
+  display: flex;
+  width: 100%;
+  min-height: 100vh; /* Start with 100% viewport height */
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: linear-gradient(
+    180deg,
+    rgba(16, 67, 159, 1) 11%,
+    rgba(86, 216, 228, 0.9724264705882353) 92%,
+    rgba(247, 247, 247, 0.927608543417367) 95%
+  );
+}
+
+.login-card {
+  width: 30%;
+  min-height: fit-content;
+  height: fit-content;
+  padding-block: 50px !important;
+  background: #ffffff80;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 10 / 64%), 0 8px 16px rgb(0 10 0 / 34%);
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-input-container h2 {
+  font-size: 40px;
+  font-weight: 600;
+  background: rgba(16, 67, 159, 1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.login-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.login-card form input {
+  border-radius: 25px;
+  border: 2px solid lightgrey;
+  outline: none;
+  color: #1d2129;
+  margin: 2% 0;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+}
+.signup-password {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  height: fit-content;
+  margin: 2% 0;
+}
+.sign-password-field {
+  width: 85% !important;
+  margin: 0 !important;
+  border: 0 !important;
+}
+.signup-password span {
+  cursor: pointer;
+}
+.login-error {
+  color: red;
+  text-align: left;
+  margin: auto;
+  font-size: 16px;
+  padding: 0px 1rem;
+}
+
+.login-page-btn {
+  color: white;
+  padding: 0.2em 0.5em;
+  border: none;
+  font-size: 22px;
+  border-radius: 30px;
+  margin: 2% 0;
+  width: 90% !important;
+}

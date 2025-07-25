@@ -1,0 +1,88 @@
+/* .logo-container {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-image: url("../assets/react.svg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.nav-toggler {
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.nav-toggler-active {
+  transform: rotate(90deg);
+}
+.collapsable-nav {
+  margin: 0;
+}
+.collapsable-nav li {
+  float: left;
+  width: auto;
+  list-style: outside none none;
+  padding: 0.5rem 0rem 0.5rem 0rem;
+  margin-right: 5rem;
+  cursor: pointer;
+}
+.collapsable-nav li hr {
+  display: none;
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 10px;
+  opacity: 0;
+  background-color: #ff4141;
+  margin: 0;
+  transition: opacity 1s ease-in;
+  cursor: pointer;
+}
+.collapsable-nav li Link {
+  color: black;
+  text-decoration: none;
+}
+.active {
+  display: block !important;
+  opacity: 0.8 !important;
+}
+.collapsable-nav li:hover hr {
+  display: block;
+  display: block;
+  opacity: 1 !important;
+}
+.cart {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.login {
+  padding: 0.5rem;
+}
+.login button {
+  background-color: rgba(0, 0, 0, 0);
+  width: 124px;
+  height: 28px;
+  border-radius: 30px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.login button:hover {
+  background-color: black;
+  color: white;
+}
+.nav-cart-count {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+  margin-left: 20px;
+  border-radius: 11px;
+  font-size: 14px;
+  background-color: red;
+  color: white;
+} */

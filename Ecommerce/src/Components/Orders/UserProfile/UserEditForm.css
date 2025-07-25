@@ -1,0 +1,270 @@
+.container-edit-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(16, 67, 159, 1) 11%,
+    rgba(86, 216, 228, 0.9724264705882353) 92%,
+    rgba(247, 247, 247, 0.927608543417367) 95%
+  );
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  padding-top: 6vw;
+}
+.edit-user-btn {
+  display: flex;
+  justify-content: end;
+  width: 95%;
+  margin-bottom: -40px;
+  cursor: pointer;
+  z-index: 100;
+}
+.container-user-edit {
+  margin-block: 20px;
+  background: #fff;
+  width: fit-content;
+  min-width: 50%;
+  padding: 25px 40px 20px 40px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.container-user-edit .text {
+  text-align: center;
+  font-size: 41px;
+  font-weight: 600;
+  background: linear-gradient(
+    180deg,
+    rgba(16, 67, 159, 1) 11%,
+    rgba(86, 216, 228, 0.9724264705882353) 92%,
+    rgba(247, 247, 247, 0.927608543417367) 95%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-user-edit hr {
+  margin: 0.5em;
+}
+.user-details-view p {
+  margin: 0;
+}
+.container-user-edit form {
+  padding: 0;
+}
+.container-user-edit form .form-row {
+  display: flex;
+  margin: 32px 0;
+}
+form .form-row .input-data {
+  width: 100%;
+  height: 40px;
+  margin: 0 20px;
+  position: relative;
+}
+form .form-row .textarea {
+  height: 70px;
+}
+.input-data input,
+.textarea textarea {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+  outline: none;
+}
+.input-data input:focus ~ label,
+.textarea textarea:focus ~ label,
+.input-data input:valid ~ label,
+.textarea textarea:valid ~ label {
+  transform: translateY(-20px);
+  font-size: 14px;
+  color: #3498db;
+}
+.textarea textarea {
+  resize: none;
+  padding-top: 10px;
+}
+.input-data label {
+  position: absolute;
+  pointer-events: none;
+  bottom: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.textarea label {
+  width: 100%;
+  bottom: 40px;
+  background: #fff;
+}
+.input-data .underline {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+}
+.underline:before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: #3498db;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before,
+.textarea textarea:focus ~ .underline:before,
+.textarea textarea:valid ~ .underline:before {
+  transform: scale(1);
+}
+.submit-btn .input-data {
+  overflow: hidden;
+  height: 45px !important;
+  width: 25% !important;
+}
+#changePassword {
+  width: 40% !important;
+}
+.submit-btn .input-data .inner {
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  background: -webkit-linear-gradient(
+    right,
+    rgba(16, 67, 159, 1),
+    rgba(86, 216, 228, 0.9724264705882353),
+    rgba(16, 67, 159, 1),
+    rgba(86, 216, 228, 0.9724264705882353)
+  );
+  transition: all 0.4s;
+}
+.submit-btn .input-data:hover .inner {
+  left: 0;
+}
+.submit-btn .input-data input {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 0 !important;
+}
+.visble-toggle {
+  display: flex;
+  margin-top: -30px;
+  margin-left: 10px;
+  align-items: center;
+}
+.close-pwd-chng {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  user-select: none;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  padding-inline: 4%;
+}
+.close-pwd-chng p {
+  margin: 0;
+}
+.chng-x {
+  cursor: pointer;
+}
+.password-container {
+  border: 3px solid;
+  border-image: linear-gradient(
+      to right,
+      rgba(16, 67, 159, 1),
+      rgba(86, 216, 228, 0.9724264705882353),
+      rgba(16, 67, 159, 1),
+      rgba(86, 216, 228, 0.9724264705882353)
+    )
+    1;
+  margin-block: 20px;
+  padding-block: 15px;
+}
+.pagination-button {
+  background-image: linear-gradient(
+    to right,
+    rgba(16, 67, 159, 1) 0%,
+    rgba(86, 216, 228, 0.9724264705882353) 51%,
+    rgba(16, 67, 159, 1) 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  width: 6em;
+}
+.pagination-button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+input[type="file"]::file-selector-button {
+  border-radius: 4px;
+  padding: 0 5px;
+  height: 40px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  margin-right: 16px;
+  transition: background-color 200ms;
+}
+
+/* file upload button hover state */
+input[type="file"]::file-selector-button:hover {
+  background-color: #f3f4f6;
+}
+
+/* file upload button active state */
+input[type="file"]::file-selector-button:active {
+  background-color: #e5e7eb;
+}
+@media (max-width: 700px) {
+  .container-user-edit .text {
+    font-size: 30px;
+  }
+  .container-user-edit form {
+    padding: 10px 0 0 0;
+  }
+  .container-user-edit form .form-row {
+    display: block;
+  }
+  form .form-row .input-data {
+    margin: 35px 0 !important;
+  }
+  .submit-btn .input-data {
+    width: 40% !important;
+  }
+}
